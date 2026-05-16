@@ -17,8 +17,8 @@ import java.util.List;
  * Filtro JWT — se ejecuta en cada petición HTTP.
  * Lee el header Authorization, valida el token y autentica al usuario.
  *
- * Si el token es válido → deja pasar la petición.
- * Si no hay token o es inválido → Spring Security retorna 403.
+ * Si el token es válido  - deja pasar la petición.
+ * Si no hay token o es inválido - Spring Security retorna 403.
  */
 @Component
 @RequiredArgsConstructor
